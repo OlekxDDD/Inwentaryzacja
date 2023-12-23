@@ -6,6 +6,6 @@ W przyszłych wersjach jest planowane dodanie:
 -konfiguracja bazy danych na serwerze
 
 # wersja
-0.0.0 - utworzenie projektu
+0.0.0 - utworzenie projektu <br/>
 0.6.0 - napisanie klasy Action
 1.0.0 - dodanie GUI
