@@ -7,5 +7,5 @@ W przyszłych wersjach jest planowane dodanie:
 
 # wersja
 0.0.0 - utworzenie projektu <br/>
-0.6.0 - napisanie klasy Action
-1.0.0 - dodanie GUI
+0.6.0 - napisanie klasy Action <br/>
+1.0.0 - dodanie GUI <br/>
