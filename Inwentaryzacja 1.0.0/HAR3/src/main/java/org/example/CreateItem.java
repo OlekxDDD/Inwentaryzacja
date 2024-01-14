@@ -72,8 +72,8 @@ public class CreateItem extends JPanel implements ActionListener {
             boolean isLessThanMaxName = Action.isLessThanMaxText(nameString);   // checking Strings are Less than Max text
             boolean isLessThanMaxDescription = Action.isLessThanMaxText(descriptionString);
 
-            boolean isID_KNull = !ID_KString.equals("");    //checking ID_k and Name aren't null
-            boolean isNameNull = !nameString.equals("");
+            boolean isID_KNull = !ID_KString.isEmpty();    //checking ID_k and Name aren't null
+            boolean isNameNull = !nameString.isEmpty();
 
 
             if(isID_KString && isValueString && isAmountString && isLessThanMaxName && isLessThanMaxDescription && isID_KNull && isNameNull) {

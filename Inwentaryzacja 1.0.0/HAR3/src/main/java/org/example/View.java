@@ -1,14 +1,19 @@
 package org.example;
 
 import javax.swing.*;   //import library
-import java.awt.*;
 
 public class View extends JFrame {
+    private static String TypeOfUser = "";
+
+    public static void setTypeOfUser(String typeOfUser) {
+        TypeOfUser = typeOfUser;
+    }
+
     View(String choice) {
         super("Inwetaryzacja skurczysynu"); //declare title (super)
         if(choice.equals("WhatDo")) {   //if WhatDo
             pack(); //use method pack
-            JPanel WhatDo = new WhatDo();   //import JPanel What Do
+            JPanel WhatDo = new WhatDo(TypeOfUser);   //import JPanel What Do
             add(WhatDo);    //add What Do to this view
             setVisible(true);   //set visible true
             setBounds(200, 200, 500, 500); //set x,y,high and height
@@ -48,8 +53,13 @@ public class View extends JFrame {
             setVisible(true);   //set visible true
             setBounds(200, 200, 500, 500); //set x,y,high and height
             setDefaultCloseOperation(0);    //don't close window on this red block in right up corner
-
-
+        } else if (choice.equals("LoginPanel")) {
+            pack(); //use method pack
+            JPanel LoginPanel = new LoginPanel();   //import JPanel CreateItem
+            add(LoginPanel);    //add Create Item to this view
+            setVisible(true);   //set visible true
+            setBounds(200, 200, 500, 500); //set x,y,high and height
+            setDefaultCloseOperation(0);    //don't close window on this red block in right up corner
         }
     }
 }

@@ -87,6 +87,11 @@ public class Action {
     }
 
 
-
-
+    public static boolean isLessThanMaxText(String Text){
+        if(Text.length() > 65535){
+            return false;
+        }else{
+            return true;
+        }
+    }
 }
