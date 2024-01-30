@@ -18,3 +18,4 @@ W przyszłych wersjach jest planowane dodanie:
 1.0.0 - polaczenie klasy i zależnosci miedzy nimi <br/>
 1.1.0 - dodanie Klasy LoginPanel <br/>
 1.1.1 - poprawa input wejscia w LoginPanel (zmiana z JTextField - JPasswordField) <br/>
+1.2.1 - dodanie funkcjonalnosci w panelu Root (RootSetings i RootPanel)<br/>
